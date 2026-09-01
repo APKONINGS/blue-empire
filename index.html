@@ -42,9 +42,7 @@
 <link rel="apple-touch-icon" href="/favicon.svg">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://images.unsplash.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 <!-- Structured Data: Hotel -->
 <script type="application/ld+json">
@@ -195,7 +193,7 @@
   h1, h2, h3, .font-serif-display { font-family: 'Playfair Display', serif; }
 
   .hero-bg {
-    background-image: linear-gradient(rgba(8, 27, 52, 0.75), rgba(11, 37, 69, 0.88)), url('https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1920&q=80');
+    background-image: linear-gradient(rgba(8, 27, 52, 0.75), rgba(11, 37, 69, 0.88)), url('images/hotel-exterior-night.jpg');
     background-size: cover;
     background-position: center;
   }
@@ -380,8 +378,8 @@
 
       <div class="reveal relative">
         <div class="relative rounded-2xl overflow-hidden shadow-2xl shadow-navy/20 aspect-[4/5] sm:aspect-[4/3] lg:aspect-[4/5]">
-          <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1000&q=80"
-               alt="Blue Empire Hotel grounds and sunset deck overlooking the water" class="w-full h-full object-cover" loading="lazy" decoding="async" width="1000" height="1250">
+          <img src="images/hotel-exterior-day.jpg"
+               alt="Blue Empire Hotel building exterior in Buea, Cameroon" class="w-full h-full object-cover" loading="lazy" decoding="async" width="1200" height="800">
         </div>
         <div class="hidden sm:flex absolute -bottom-8 -right-6 lg:-right-10 bg-navy text-white rounded-2xl shadow-xl px-7 py-6 flex-col items-start max-w-[220px]">
           <span class="font-serif-display text-3xl font-bold text-gold">4.2<span class="text-base text-cream/70">/5</span></span>
@@ -443,8 +441,8 @@
       <!-- Royal Room -->
       <div class="reveal card-hover bg-white rounded-2xl overflow-hidden shadow-lg shadow-navy/10 border border-navy/5">
         <div class="relative h-64 sm:h-72 bg-navy overflow-hidden">
-          <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=900&q=80"
-               alt="Royal Room at Blue Empire Hotel featuring a king-size bed and premium comfort" class="w-full h-full object-cover" loading="lazy" decoding="async" width="900" height="500">
+          <img src="images/room-1.jpg"
+               alt="Royal Room at Blue Empire Hotel featuring a king-size bed and premium comfort" class="w-full h-full object-cover" loading="lazy" decoding="async" width="1200" height="800">
           <span class="absolute top-4 left-4 bg-gold text-navy text-xs font-bold uppercase tracking-wide px-3 py-1.5 rounded-full shadow">Most Popular</span>
         </div>
         <div class="p-7 sm:p-8">
@@ -491,8 +489,8 @@
       <!-- Superior Room -->
       <div class="reveal reveal-delay-1 card-hover bg-white rounded-2xl overflow-hidden shadow-lg shadow-navy/10 border border-navy/5">
         <div class="relative h-64 sm:h-72 bg-navy overflow-hidden">
-          <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=900&q=80"
-               alt="Superior Room lounge area at Blue Empire Hotel with elegant seating" class="w-full h-full object-cover" loading="lazy" decoding="async" width="900" height="500">
+          <img src="images/room-2.jpg"
+               alt="Superior Room at Blue Empire Hotel with plush navy bedding" class="w-full h-full object-cover" loading="lazy" decoding="async" width="1200" height="800">
           <span class="absolute top-4 left-4 bg-white/90 text-navy text-xs font-bold uppercase tracking-wide px-3 py-1.5 rounded-full shadow">City View</span>
         </div>
         <div class="p-7 sm:p-8">
@@ -551,32 +549,36 @@
     </div>
 
     <div class="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
-      <button type="button" class="gallery-item reveal group relative rounded-xl overflow-hidden aspect-square focus:outline-none focus:ring-2 focus:ring-gold" data-full="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1600&q=85" data-caption="Poolside at dusk">
-        <img src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=500&q=80" alt="Blue Empire Hotel poolside deck at dusk" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy" decoding="async" width="500" height="500">
+      <button type="button" class="gallery-item reveal group relative rounded-xl overflow-hidden aspect-square focus:outline-none focus:ring-2 focus:ring-gold" data-full="images/hotel-exterior-day.jpg" data-caption="Hotel exterior">
+        <img src="images/hotel-exterior-day.jpg" alt="Blue Empire Hotel building exterior in Buea" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy" decoding="async" width="1200" height="800">
         <span class="absolute inset-0 bg-navy/0 group-hover:bg-navy/30 transition-colors duration-300"></span>
       </button>
-      <button type="button" class="gallery-item reveal reveal-delay-1 group relative rounded-xl overflow-hidden aspect-square focus:outline-none focus:ring-2 focus:ring-gold col-span-2 row-span-2" data-full="https://images.unsplash.com/photo-1560624052-449f5ddf0c31?auto=format&fit=crop&w=1600&q=85" data-caption="Rooftop lounge">
-        <img src="https://images.unsplash.com/photo-1560624052-449f5ddf0c31?auto=format&fit=crop&w=900&q=80" alt="Blue Empire Hotel rooftop lounge with tropical decor" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy" decoding="async" width="900" height="900">
+      <button type="button" class="gallery-item reveal reveal-delay-1 group relative rounded-xl overflow-hidden aspect-square focus:outline-none focus:ring-2 focus:ring-gold col-span-2 row-span-2" data-full="images/rooftop-lounge.jpg" data-caption="Rooftop lounge">
+        <img src="images/rooftop-lounge.jpg" alt="Blue Empire Hotel rooftop lounge with string lighting" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy" decoding="async" width="1200" height="800">
         <span class="absolute inset-0 bg-navy/0 group-hover:bg-navy/30 transition-colors duration-300"></span>
       </button>
-      <button type="button" class="gallery-item reveal reveal-delay-2 group relative rounded-xl overflow-hidden aspect-square focus:outline-none focus:ring-2 focus:ring-gold" data-full="https://images.unsplash.com/photo-1600334129128-685c5582fd35?auto=format&fit=crop&w=1600&q=85" data-caption="Full-service spa">
-        <img src="https://images.unsplash.com/photo-1600334129128-685c5582fd35?auto=format&fit=crop&w=500&q=80" alt="Spa hot stone massage treatment at Blue Empire Hotel" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy" decoding="async" width="500" height="500">
+      <button type="button" class="gallery-item reveal reveal-delay-2 group relative rounded-xl overflow-hidden aspect-square focus:outline-none focus:ring-2 focus:ring-gold" data-full="images/pool.jpg" data-caption="Outdoor pool">
+        <img src="images/pool.jpg" alt="Blue Empire Hotel outdoor swimming pool at night" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy" decoding="async" width="1200" height="800">
         <span class="absolute inset-0 bg-navy/0 group-hover:bg-navy/30 transition-colors duration-300"></span>
       </button>
-      <button type="button" class="gallery-item reveal reveal-delay-3 group relative rounded-xl overflow-hidden aspect-square focus:outline-none focus:ring-2 focus:ring-gold" data-full="https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?auto=format&fit=crop&w=1600&q=85" data-caption="24-hour restaurant">
-        <img src="https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?auto=format&fit=crop&w=500&q=80" alt="Guest dining at the Blue Empire Hotel restaurant" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy" decoding="async" width="500" height="500">
+      <button type="button" class="gallery-item reveal reveal-delay-3 group relative rounded-xl overflow-hidden aspect-square focus:outline-none focus:ring-2 focus:ring-gold" data-full="images/lobby-reception.jpg" data-caption="Reception & lobby">
+        <img src="images/lobby-reception.jpg" alt="Blue Empire Hotel reception and lobby desk" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy" decoding="async" width="1200" height="800">
         <span class="absolute inset-0 bg-navy/0 group-hover:bg-navy/30 transition-colors duration-300"></span>
       </button>
-      <button type="button" class="gallery-item reveal reveal-delay-4 group relative rounded-xl overflow-hidden aspect-square focus:outline-none focus:ring-2 focus:ring-gold" data-full="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1600&q=85" data-caption="Reception">
-        <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=500&q=80" alt="Blue Empire Hotel reception desk" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy" decoding="async" width="500" height="500">
+      <button type="button" class="gallery-item reveal reveal-delay-4 group relative rounded-xl overflow-hidden aspect-square focus:outline-none focus:ring-2 focus:ring-gold" data-full="images/hotel-exterior-night.jpg" data-caption="Hotel at night">
+        <img src="images/hotel-exterior-night.jpg" alt="Blue Empire Hotel building lit up at night" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy" decoding="async" width="1200" height="800">
         <span class="absolute inset-0 bg-navy/0 group-hover:bg-navy/30 transition-colors duration-300"></span>
       </button>
-      <button type="button" class="gallery-item reveal reveal-delay-5 group relative rounded-xl overflow-hidden aspect-square focus:outline-none focus:ring-2 focus:ring-gold" data-full="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=1600&q=85" data-caption="Fitness center">
-        <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=500&q=80" alt="Blue Empire Hotel fitness center" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy" decoding="async" width="500" height="500">
+      <button type="button" class="gallery-item reveal reveal-delay-5 group relative rounded-xl overflow-hidden aspect-square focus:outline-none focus:ring-2 focus:ring-gold" data-full="images/room-1.jpg" data-caption="Guest room">
+        <img src="images/room-1.jpg" alt="Guest room at Blue Empire Hotel" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy" decoding="async" width="1200" height="800">
         <span class="absolute inset-0 bg-navy/0 group-hover:bg-navy/30 transition-colors duration-300"></span>
       </button>
-      <button type="button" class="gallery-item reveal group relative rounded-xl overflow-hidden aspect-square focus:outline-none focus:ring-2 focus:ring-gold" data-full="https://images.unsplash.com/photo-1521783988139-89397d761dce?auto=format&fit=crop&w=1600&q=85" data-caption="Room detail">
-        <img src="https://images.unsplash.com/photo-1521783988139-89397d761dce?auto=format&fit=crop&w=500&q=80" alt="Modern navy-toned bedroom at Blue Empire Hotel" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy" decoding="async" width="500" height="500">
+      <button type="button" class="gallery-item reveal group relative rounded-xl overflow-hidden aspect-square focus:outline-none focus:ring-2 focus:ring-gold" data-full="images/room-2.jpg" data-caption="Guest room">
+        <img src="images/room-2.jpg" alt="Guest room at Blue Empire Hotel with navy bedding" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy" decoding="async" width="1200" height="800">
+        <span class="absolute inset-0 bg-navy/0 group-hover:bg-navy/30 transition-colors duration-300"></span>
+      </button>
+      <button type="button" class="gallery-item reveal group relative rounded-xl overflow-hidden aspect-square focus:outline-none focus:ring-2 focus:ring-gold" data-full="images/corridor.jpg" data-caption="Hallway">
+        <img src="images/corridor.jpg" alt="Hallway at Blue Empire Hotel" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy" decoding="async" width="600" height="360">
         <span class="absolute inset-0 bg-navy/0 group-hover:bg-navy/30 transition-colors duration-300"></span>
       </button>
     </div>
